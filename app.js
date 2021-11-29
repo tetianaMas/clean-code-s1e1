@@ -18,14 +18,6 @@ var completedTasksHolder=document.querySelector(".task-list_done");//completed-t
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
-//<ul class="task-list task-list_active" id="active-tasks">
-{/* <li class="task">
-<input class="task__checkbox" type="checkbox">
-<label class="main__text task__text">Pay Bills</label>
-<input type="text" class="main__text main__text_input task__text task__text_input">
-<button class="button button_edit">Edit</button>
-<button class="button button_delete"><img class="button__delete-img" src="./remove.svg" alt=""></button>
-</li> */}
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
     //label
